@@ -9,7 +9,7 @@ var wonderlist = [`wo-wondahoyy..~`, `wonderhoy~!!`, `wondahoyyy!!! >_<`, `wonde
 //these are the things that the bot actually matches to, woofList is an array of strings but the other two are arrays of regexes
 var woofList = ['woof', 'bark', 'arf', 'wan', 'ruff'];
 var nyaMatch = [/^(m(r{2,})p)/, /^(m(e+)(o+)w)/, /^(m(r+)(o+)w)/, /^(p(u+)(r{2,}))/, /^(m(e+)(w+))/, /^(nya)/, /^((ps+))/];
-var yellingNyaMatch = [/^(M(R{2,})P)/, /^(M(E+)(O+)W)/, /^(P(U+)(R{2,}))/, /^(M(E+)(W+))/, /^(N(Y+)(A+))/, /^((ps+))/];
+var yellingNyaMatch = [/^(M(R{2,})P)/, /^(M(E+)(O+)W)/, /^(M(R+)(O+)W)/ ,/^(P(U+)(R{2,}))/, /^(M(E+)(W+))/, /^(N(Y+)(A+))/, /^((ps+))/];
 
 function validMeow(isOtherAnimal, message) {
 	let meowBack = nyaList[Math.floor(Math.random()*nyaList.length)]; //random selection of meow, but is sometimes the same (i think its fine tho :3)

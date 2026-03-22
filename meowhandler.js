@@ -8,7 +8,7 @@ var wonderlist = [`wo-wondahoyy..~`, `wonderhoy~!!`, `wondahoyyy!!! >_<`, `wonde
 
 //these are the things that the bot actually matches to, woofList is an array of strings but the other two are arrays of regexes
 var woofList = ['woof', 'bark', 'arf'];
-var nyaMatch = [/^(m(r{2,})p)/, /^(m(e+)(o+)w)/, /^(m(r{2,})ow)/, /^(p(u+)(r{2,}))/, /^(m(e+)(w+))/, /^(nya)/, /^((ps+))/];
+var nyaMatch = [/^(m(r{2,})p)/, /^(m(e+)(o+)w)/, /^(m(r{2,})(o+)w)/, /^(p(u+)(r{2,}))/, /^(m(e+)(w+))/, /^(nya)/, /^((ps+))/];
 var yellingNyaMatch = [/^(M(R{2,})P)/, /^(M(E+)(O+)W)/, /^(P(U+)(R{2,}))/, /^(M(E+)(W+))/, /^(N(Y+)(A+))/, /^((ps+))/];
 
 function validMeow(isOtherAnimal, message) {
